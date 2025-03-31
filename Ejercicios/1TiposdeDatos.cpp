@@ -11,12 +11,12 @@ int main() {
     string texto = "Hola, mundo"; // Cadenas de texto (requiere <string>)
 
     // Mostrar valores en pantalla
-    cout << "Entero: " << entero << endl;
-    cout << "Flotante: " << flotante << endl;
-    cout << "Doble: " << doble << endl;
-    cout << "Caracter: " << caracter << endl;
-    cout << "Booleano: " << booleano << endl;
-    cout << "Texto: " << texto << endl;
+    cout << "Entero: " << entero << " -- " << sizeof(int) << endl;
+    cout << "Flotante: " << flotante << " -- " << sizeof(float) << endl;
+    cout << "Doble: " << doble << " -- " << sizeof(double) << endl;
+    cout << "Caracter: " << caracter << " -- " << sizeof(char) << endl;
+    cout << "Booleano: " << booleano << " -- " << sizeof(bool) << endl;
+    cout << "Texto: " << texto << " -- " << sizeof(string) << endl;
 
     return 0; // Indica que el programa terminó con éxito
 }
