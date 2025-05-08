@@ -1,0 +1,3 @@
+Nombre: Juan Perez
+Edad: 25
+Profesión: Ingeniero
